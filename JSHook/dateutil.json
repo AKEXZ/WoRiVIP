@@ -1,7 +1,7 @@
 {
   "name": "Yuwell DateUtil expire hook",
   "package": "com.yuwell.cgm",
-  "script": "hook_dateutil.js",
+  "script": "com.yuwell.cgm.js",
   "enabled": true,
   "description": "When date year >= 2099 and pattern yyyy/MM/dd HH:mm, return fixed 2099 date."
 }
