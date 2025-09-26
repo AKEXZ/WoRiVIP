@@ -1,7 +1,17 @@
 {
-  "name": "Yuwell DateUtil expire hook",
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "title": "Yuwell DateUtil expire hook",
+  "type": "frida",
+  "version": "1.0.0",
+  "author": "Yuwell Security Team",
+  "desc": "处理日期溢出，将2099年后的日期固定返回2099年",
+  "description": "When date year >= 2099 and pattern yyyy/MM/dd HH:mm, return fixed 2099 date.",
   "package": "com.yuwell.cgm",
   "script": "com.yuwell.cgm.js",
   "enabled": true,
-  "description": "When date year >= 2099 and pattern yyyy/MM/dd HH:mm, return fixed 2099 date."
+  "ctime": "2023-01-01",
+  "url": "https://github.com/AKEXZ/WoRiVIP/blob/main/JSHook/dateutil.js",
+  "source": "https://github.com/AKEXZ/WoRiVIP",
+  "markdown": "https://github.com/AKEXZ/WoRiVIP/blob/main/docs/dateutil.md",
+  "down_count": 42
 }
